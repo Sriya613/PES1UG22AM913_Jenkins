@@ -8,6 +8,7 @@ pipeline {
                     sh 'git clone https://github.com/Sriya613/PES1UG22AM913_Jenkins.git'
                 }
             }
+        }
         
         stage('Build') {
             steps {
@@ -20,13 +21,13 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './PES1UG22AM913-1'
+                    sh './this_file_does_not_exist'
                 }
             }
         }
         
         stage('Deploy') {
-            steps {
+            steeps {
                 echo 'Deploying application...'
             }
         }
