@@ -8,7 +8,6 @@ pipeline {
                     sh 'git clone https://github.com/Sriya613/PES1UG22AM913_Jenkins.git'
                 }
             }
-        }
         
         stage('Build') {
             steps {
