@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o PES1UG22AM913-1 hello.cpp'
+                    sh 'g++ -o PES1UG22AM913-1 main.cpp'
                 }
             }
         }
